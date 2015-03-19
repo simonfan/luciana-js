@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Funcoes como argumentos</title>
+
+</head>
+<body>
+
+	<button id="botao">Click</button>
+
+
+
+
+	<script type="text/javascript">
+
+		var botao = document.getElementById('botao');
+
+
+		var oQueDeveriaAcontecerQuandoClicamNoBotao = function () {
+			alert('oi')
+		};
+
+		botao.addEventListener('click', oQueDeveriaAcontecerQuandoClicamNoBotao);
+
+	</script>
+</body>
+</html>
