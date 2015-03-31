@@ -19,7 +19,7 @@ console.log(tv.cor + " " + tv.tamanho);
 tv.cor = "verde";
 console.log(tv.cor);
 
-
+// executar um metodo
 console.log('canal original:' + tv.canal);
 
 tv.trocarCanal(7);

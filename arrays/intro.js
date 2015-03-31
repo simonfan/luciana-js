@@ -1,3 +1,4 @@
+//            0    1   2      3     length = 4
 var lista = ["a", "2", 5, "simon"];
 console.log(lista);
 
@@ -7,6 +8,7 @@ console.log(lista.length);
 
 
 // imprima apenas o ultimo valor da lista
+// 
 console.log(lista[lista.length - 1]);
 
 // imprima todos os valores da lista na tela
