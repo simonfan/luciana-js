@@ -8,11 +8,12 @@
 // 	}
 // })
 
-$.ajax("http://localhost:8080/jquery/projeto2/estilos/1.json", {
+$.ajax("http://localhost:8081/jquery/projeto2/estilos/1.json", {
 	complete: function(res) {
 		console.log("received response")
-		$("div").css(res.responseJSON)
+		$("#id1").css(res.responseJSON)
 	}
 })
 
 console.log("oi")
+
