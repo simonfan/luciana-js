@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset="utf8">
+
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="action.js"></script>
+</head>
+<body>
+
+	<div id="lista">
+
+	</div>
+
+	<div id="detalhes">
+		<img src="">
+		<h2>Título</h2>
+		<p>descrição</p>
+		<p>R$ 4,00</p>
+	</div>
+
+	<form id="novo" action="http://localhost:2403/comidas/" method="POST">
+		<input id="titulo" name="titulo" placeholder="Título">
+		<input id="descricao"  name="descricao" placeholder="descrição">
+		<input id="preco"  name="preco" placeholder="preço">
+		<input id="imagem"  name="imagem" placeholder="img-link">
+		<button type="submit">enviar</button>
+	</form>
+
+
+	<form action="http://localhost:2403/comidas/" method="POST">
+		<input id="titulo" name="titulo" placeholder="Título">
+		<input id="descricao"  name="descricao" placeholder="descrição">
+		<input id="preco"  name="preco" placeholder="preço">
+		<input id="imagem"  name="imagem" placeholder="img-link">
+		<button type="submit">enviar</button>
+	</form>
+
+</body>
+</html>
