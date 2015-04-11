@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset="utf8">
+
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="action.js"></script>
+</head>
+<body>
+	<ul id="listaCidades">
+
+	</ul>
+
+	<form id="form1" action="http://localhost:2403/lugares" method="POST">
+		<label>Nome</label>
+		<input id="nome" type="text" name="nome">
+		<label>idade</label>
+		<input id="idade" type="number" name="idade">
+		<label>imagem</label>
+		<input id="imagem" type="text" name="imagem">
+		<button id="submit1" type="submit">enviar</button>
+	</form>
+
+
+	<form id="form2" action="http://localhost:2403/lugares" method="GET">
+
+		<input id="nome-lugar" name="nome" placeholder="id-do-lugar">
+
+		<button type="submit">pegar lugar</button>
+	</form>
+
+	
+
+</body>
+</html>
