@@ -1,0 +1,107 @@
+<html>
+<head>
+	<title>Projeto 1</title>
+	<meta charset="utf8">
+
+
+	<script type="text/javascript" src="jquery.js"></script>
+
+	<style type="text/css">
+		[genero~="mulher"] {
+			font-size: 30pt;
+		}
+
+		[fab-genero~="idosa"] {
+			background-color: red;
+		}
+
+		.mulher {
+
+		}
+
+		[class~="mulher"] {
+
+		}
+
+		#root > div > div {
+			background-color: blue;
+		}
+
+		#root div {
+			background-color: red;
+		}
+
+
+		.width-50 {
+			width: 50%;
+		}
+
+		[width] {
+			background-color: yellow;
+		}
+
+		.pessoa {
+
+		}
+
+		.pessoa h1 {
+
+		}
+
+		.pessoa p {
+
+		}
+
+		.pessoa button {
+
+		}
+
+	</style>
+</head>
+<body>
+
+
+
+	<pessoa>seleção por tag</pessoa>
+
+	<div class="selecao-por-classe">selecao-por-classe</div>
+	<div id="selecao-por-id">selecao-por-id</div>
+
+
+	<div xpto="kyz">selecao-por-atributo: </div>
+	<div xpto="abc">selecao-por-atributo: </div>
+	<div xpto="y">selecao-por-atributo: </div>
+	<div xpto="e">selecao-por-atributo: </div>
+	<div xpto="eer">selecao-por-atributo: </div>
+	<div xpto="r">selecao-por-atributo: </div>
+	<div xpto="kyz">selecao-por-atributo: </div>
+	<div xpto="kyz">selecao-por-atributo: </div>
+
+	<pessoa fab-type="mulher" class="u qweq qwe qwe " especie="animal">selecao-por-atributo: </pessoa>
+
+	<pessoa class="mulher pessoa genreo">selecao-por-atributo: </pessoa>
+
+
+	<div id="root">
+		<div>div 1</div>
+		<div>div 2
+			<div>div 2.1</div>
+		</div>
+	</div>
+
+
+	<div class="width-50"></div>
+
+	<div width="50">width 50</div>
+
+	<div width="40">width 40</div>
+	<div width="36">width 36</div>
+	<div width="29">width 89</div>
+	<div width="17">width 17</div>
+
+
+	<script type="text/javascript" src="action.js"></script>
+
+
+</body>
+</html>
